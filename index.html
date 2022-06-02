@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- BS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- NUESTRO CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Maquetando con Boostrap</title>
+  </head>
+  <body>
+
+    <!-- HEADER --> 
+    <nav class="navbar navbar-expand-lg p-3" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span class="text-primary fs-3 fw-bold">90's years</span>   
+          </a>
+          <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Bibliografia</a>
+              </li> 
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <!-- Carrousel de Imagenes -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">  
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="/img/carrousel-1.jpg" class="d-block w-100" alt="Imagen 1 Eminem">
+                </div>    
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="/img/carrousel-2.jpg" class="d-block w-100" alt="Imagen 2 Ice Cube">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="/img/carrousel-3.jpg" class="d-block w-100" alt="Imagen 3 Snoop Dog">
+            </div>
+        </div>
+            
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+ 
+      <!-- Introduccion-->
+      <section class="w-50 mx-auto text-center pt-5">
+        <h1 class="p-3 fs-2 border-top border-2 text-light">Bibliografia de estos artistas 
+      </section>
+
+      <!-- Bibliografia -->
+      <section class="container fluid">
+          <div class="row w-75 mx-auto">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="/img/eminem-1.jpg" alt=""width="300" height="250">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 text-primary">Eminem (
+                        Marshall Bruce Mathers)</h3>
+                    <p class="px-4 fw-bold text-light"> Para ver mas informacion sobre el artista  <a href="https://www.discogs.com/es/artist/38661-Eminem" target="_blank">Ver mas</a></p>
+                </div>
+            </div>  
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="/img/icecube-1.jpg" alt=""width="300" height="250">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 text-primary">Ice Cube (O'Shea Jackson)</h3>
+                    <p class="px-4 fw-bold text-light"> Para ver mas informacion sobre el artista <a href="https://www.discogs.com/es/artist/13732-Ice-Cube" target="_blank">Ver mas</a> </p>
+                </div>
+            </div>      
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="/img/snoopdog-1.jpg" alt=""width="300" height="250">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 text-primary">Snoop Dog (Calvin Cordozar Broadus Jr)</h3>
+                    <p class="px-4 fw-bold text-light">Para ver mas informacion sobre el artista <a href="https://www.discogs.com/es/artist/132084-Snoop-Dogg" target="-blank">Ver mas</a></p>
+                </div>
+            </div>      
+          </div>
+      </section>
+
+      <!-- FOOTER  -->
+
+       <footer class="page-footer bg-dark">
+        <div class="bg-primary">
+            <div class="container">
+                <div class="row py-4 d-flex aling-items-center">
+                    <div class="col-md-12 text-center text-dark">
+                        <a href="#" class="git-icono"><i class="fa-brands fa-github mr-4"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram mr-4"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter mr-4"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+
+         <div class="container text-center text-md-left mt-5">
+            <div class="row">
+                <div class="col-md-3 mx-auto mb-4">
+                    <h6 class="text-primary font-weight-bold">Contacto</h6>
+                    <hr class="bg-primary mb-4 mt-0 d-inline-block mx-auto" style="width: 125px; height: 2px;">
+                    <p class="mt-2 text-primary">Juan Caraballo <br> caraballojuanignacio1@gmail.com <br>
+                    </p>
+                </div>
+
+                <div class="col-md-3 mx-auto mb-4">
+                  <h6 class="text-primary font-weight-bold">Descripcion de la pagina</h6>
+                  <hr class="bg-primary mb-4 mt-0 d-inline-block mx-auto" style="width: 125px; height: 2px;">
+                  <p class="mt-2 text-primary">La pagina tiene como objetivo brindar informacion sobre los artistas y sus albunes mas reproducidos 
+                  </p>
+              </div>
+
+        <div class="footer-copyright text-center py-3">
+            <p class="text-light text-center">Diseño por juancaraballo99</p>
+        </div>    
+
+      </footer>
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

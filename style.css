@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/img/fondo-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#menu {
+    background-color:rgba(0, 0, 0, 0.829);   
+}
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIS SM */
+@media (max-width:768px) {
+    #intro, #equipo {
+        width:90% !important;
+    }
+
+    #equipo p {
+        display: none;
+    }
+    
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+
+/* Media queris pantalla ancha */
+@media (max-width: 1200px) {
+    #local {
+        flex-wrap: wrap;
+        padding-top:30px;
+
+    }
+
+    .wrapper
+    {
+        width: 90%;
+        margin:auto;
+        padding-top: 50px;
+    }
+}
+
+
+/* MEDIA QUERIS ESM */
+@media (max-width: 576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    
+}
